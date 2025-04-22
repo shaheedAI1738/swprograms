@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="S.W Programs oferece soluções digitais para negócios, incluindo desenvolvimento de websites, marketing com IA e automação de processos. Transforme sua presença online!">
+  <meta name="keywords" content="desenvolvimento de websites, marketing com IA, automação de processos, websites Portugal, S.W Programs">
+  <meta name="author" content="S.W Programs">
+  <title>S.W Programs - Soluções Digitais para Negócios</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a0a;
+      color: #e5e7eb;
+    }
+    .hero-section {
+      background: linear-gradient(135deg, #111827, #1f2937);
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+    .card {
+      background: #1f2937;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid #374151;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+    .navbar {
+      background: #111827;
+      border-bottom: 1px solid #374151;
+    }
+    .animate-slide-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideIn 0.5s forwards;
+    }
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .cta-button {
+      background: #10b981;
+      transition: background 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #059669;
+    }
+    .tech-accent {
+      background: linear-gradient(90deg, #10b981, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed w-full z-50 py-4 px-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-white">S.W Programs</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="text-gray-400 hover:text-white transition">Início</a></li>
+        <li><a href="#sobre" class="text-gray-400 hover:text-white transition">Sobre</a></li>
+        <li><a href="#servicos" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+        <li><a href="#contato" class="text-gray-400 hover:text-white transition">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section py-32">
+    <div class="max-w-7xl mx-auto text-center px-6">
+      <h2 class="text-5xl font-bold text-white mb-6 animate-slide-in">
+        Soluções <span class="tech-accent">Tecnológicas</span> para o Seu Negócio
+      </h2>
+      <p class="text-xl text-gray-300 mb-8 animate-slide-in" style="animation-delay: 0.2s;">
+        Na S.W Programs, desenvolvemos websites de alta performance e utilizamos IA para automatizar vendas, atendimento e marketing, impulsionando o crescimento do seu negócio.
+      </p>
+      <a href="#contato" class="cta-button inline-block px-8 py-4 text-lg font-semibold text-white rounded-lg animate-slide-in" style="animation-delay: 0.4s;">
+        Fale Conosco
+      </a>
+    </div>
+  </section>
+
+  <!-- Sobre Section -->
+  <section id="sobre" class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center mb-12">Quem Somos</h3>
+      <p class="text-lg text-gray-300 text-center max-w-3xl mx-auto">
+        A S.W Programs é uma empresa de tecnologia focada em transformar negócios por meio de soluções digitais inovadoras. Combinamos expertise em desenvolvimento web com inteligência artificial para criar experiências digitais que engajam clientes e otimizam resultados. Nossa equipe está comprometida em entregar projetos que unem design moderno, funcionalidade impecável e automação inteligente.
+      </p>
+    </div>
+  </section>
+
+  <!-- Serviços Section -->
+  <section id="servicos" class="py-20 bg-gray-900">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center mb-12">Nossos Serviços</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="card p-6 rounded-lg animate-slide-in">
+          <h4 class="text-2xl font-semibold mb-4">Desenvolvimento de Websites</h4>
+          <p class="text-gray-300">
+            Criamos websites personalizados, responsivos e otimizados para SEO, com design moderno e funcionalidades avançadas. Desde vitrines digitais para exibir produtos até plataformas complexas com integração de e-commerce, garantimos performance, segurança e uma experiência de usuário excepcional que reflete a identidade da sua marca.
+          </p>
+        </div>
+        <div class="card p-6 rounded-lg animate-slide-in" style="animation-delay: 0.2s;">
+          <h4 class="text-2xl font-semibold mb-4">Marketing com IA</h4>
+          <p class="text-gray-300">
+            Desenvolvemos campanhas de marketing personalizadas com inteligência artificial, analisando dados para maximizar engajamento e conversões, enquanto otimizamos o retorno sobre investimento.
+          </p>
+        </div>
+        <div class="card p-6 rounded-lg animate-slide-in" style="animation-delay: 0.4s;">
+          <h4 class="text-2xl font-semibold mb-4">Automação de Processos</h4>
+          <p class="text-gray-300">
+            Automatizamos vendas, atendimento ao cliente e fluxos de trabalho com ferramentas de IA, como chatbots inteligentes e sistemas de CRM, para aumentar a eficiência e melhorar a experiência do cliente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato Section -->
+  <section id="contato" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-4xl font-bold mb-12">Entre em Contato</h3>
+      <p class="text-lg text-gray-300 mb-8">
+        Quer transformar seu negócio com tecnologia de ponta? Fale conosco e comece hoje mesmo!
+      </p>
+      <form action="https://formspree.io/f/mblojley" method="POST" id="contact-form" class="max-w-lg mx-auto">
+        <input type="text" id="nome" name="nome" placeholder="Nome" class="w-full p-4 mb-4 bg-gray-800 text-white rounded-lg" required>
+        <input type="email" id="email" name="_replyto" placeholder="E-mail" class="w-full p-4 mb-4 bg-gray-800 text-white rounded-lg" required>
+        <textarea id="mensagem" name="mensagem" placeholder="Mensagem" class="w-full p-4 mb-4 bg-gray-800 text-white rounded-lg" rows="5" required></textarea>
+        <input type="hidden" name="_subject" value="Nova mensagem do site S.W Programs">
+        <button type="submit" id="enviar" class="cta-button w-full px-8 py-4 text-lg font-semibold text-white rounded-lg">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gray-900 text-center">
+    <p class="text-gray-400">© 2025 S.W Programs. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Form Submission with Formspree
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      const nome = document.getElementById('nome').value;
+      const email = document.getElementById('email').value;
+      const mensagem = document.getElementById('mensagem').value;
+
+      if (nome && email && mensagem) {
+        alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+        // Form will submit to Formspree automatically
+        document.getElementById('nome').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('mensagem').value = '';
+      } else {
+        e.preventDefault(); // Prevent form submission if fields are empty
+        alert('Por favor, preencha todos os campos.');
+      }
+    });
+
+    // Animation on Scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-slide-in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.animate-slide-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'934591f48f8106f8',t:'MTc0NTMyOTYxNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body>
+</html>
